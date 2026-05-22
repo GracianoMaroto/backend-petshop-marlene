@@ -10,7 +10,7 @@ docker compose up -d
 npm install prisma --save-dev // Caso nunca tenha usado prisma.
 npm run prisma:migrate -- --name init
 npx prisma generate
-npm run prisma:seed // Para ter alguns dados mocados e fazer testes.
+npm run prisma:seed // Para ter alguns dados mocados e poder fazer testes.
 npm run start:dev
 ```
 
